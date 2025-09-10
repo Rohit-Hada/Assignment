@@ -181,4 +181,3 @@ This README covers:
 * Validation and error handling
 * Swagger documentation
 * Authentication
-=
