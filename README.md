@@ -57,8 +57,7 @@ A **Spring Boot RESTful API** for performing CRUD operations on products. The ap
 1. **Clone the repository**:
 
 ```bash
-git clone https://github.com/yourusername/product-api.git
-cd product-api
+git clone [https://github.com/yourusername/product-api.git](https://github.com/Rohit-Hada/Assignment.git)
 ```
 
 2. **Configure database connection** in `src/main/resources/application.properties`:
