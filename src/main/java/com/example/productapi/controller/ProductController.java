@@ -37,9 +37,10 @@ public class ProductController {
     })
     @GetMapping("/{id}")
     public ResponseEntity<Product> getById(@PathVariable Long id) {
-        return ResponseEntity.ok(service.getProductById(id));
+        Product product = service.getProductById(id);
+        return ResponseEntity.ok(product);
     }
-    
+
 
     // Create a new product
     @Operation(summary = "Create a new product", description = "Add a new product to the system")
